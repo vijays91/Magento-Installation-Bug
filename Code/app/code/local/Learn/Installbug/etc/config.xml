@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Learn_Installbug>
+            <version>1.0.0</version>
+        </Learn_Installbug>
+    </modules>
+    
+    <global>
+        <models>
+            <installbug>
+                <class>Learn_Installbug_Model</class>
+            </installbug>
+            <install>
+                <rewrite>
+                    <installer_db_mysql4>Learn_Installbug_Model_Installer_Db_Mysql4</installer_db_mysql4>
+                </rewrite>
+            </install>
+        </models>
+    </global>
+    
+</config>
